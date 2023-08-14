@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(./images/todo.jpeg);
+}
+
+
+.container>hr{
+    width: 100%;
+    border: 2px solid #2e2323;
+}
+
+
+.up{
+    display: flex;
+    height: 20vh;
+    flex-direction: column;
+    align-items: center;
+    gap: 20%;
+    margin: 20px 0px 0px 20px;
+}
+.inputField{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+input{
+    font-size: medium;
+    padding: 20px;
+    width: 25%;
+    border-radius: 12px;
+    border: none;
+}
+.inputField button{
+    background-color: black;
+    font-size: medium;
+    color: #ccc;
+    padding: 20px;
+    border-radius: 12px;
+    border: none;
+}
+
+
+.down{
+    margin: 20px auto ;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+    height: fit-content;
+    min-height: 50px;
+    width: 80%;
+}
+table{
+    font-size: 18px;
+}
+
+table,tr,th,td{
+    border: 2px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+table th{
+    width: 100%;
+}
+
+table tr td button{
+    background-color: white;
+    border: none;
+    width: 100px;
+}
+
+table tr td button:hover{
+    background-color: #ccc;
+}
+
+
